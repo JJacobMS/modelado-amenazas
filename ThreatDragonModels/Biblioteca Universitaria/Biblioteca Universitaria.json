@@ -878,8 +878,8 @@
           },
           {
             "position": {
-              "x": 253,
-              "y": 50
+              "x": 300,
+              "y": 70
             },
             "size": {
               "width": 112.5,
@@ -1031,8 +1031,8 @@
           },
           {
             "position": {
-              "x": 509,
-              "y": 200
+              "x": 569,
+              "y": 240
             },
             "size": {
               "width": 120,
@@ -1301,6 +1301,198 @@
             },
             "labels": [
               "Lee web app config"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "ba1b675d-1053-438a-8c49-2092c14142a2",
+            "source": {
+              "cell": "e9e05a90-2c56-422e-8019-3ee73d80dba4"
+            },
+            "target": {
+              "cell": "f642f1d4-5208-4ada-84f9-a11f529ed1f2"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 190
+              }
+            ],
+            "labels": [
+              "Web Request"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Response",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "3fc0f2f3-0089-484e-9307-b589b53bf629",
+            "source": {
+              "cell": "f642f1d4-5208-4ada-84f9-a11f529ed1f2"
+            },
+            "target": {
+              "cell": "e9e05a90-2c56-422e-8019-3ee73d80dba4"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 150
+              }
+            ],
+            "labels": [
+              "Web Response"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Resultados Web App Query",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "84a9afb5-16da-44be-80d8-beda12a14ae7",
+            "source": {
+              "cell": "e490083a-6918-453c-a84f-29f55e2c4526"
+            },
+            "target": {
+              "cell": "f642f1d4-5208-4ada-84f9-a11f529ed1f2"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 230
+              }
+            ],
+            "labels": [
+              "Resultados Web App Query"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Queries",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "cdb94cd3-3b8f-4aca-8b03-4decf74a219d",
+            "source": {
+              "cell": "f642f1d4-5208-4ada-84f9-a11f529ed1f2"
+            },
+            "target": {
+              "cell": "e490083a-6918-453c-a84f-29f55e2c4526"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 300
+              }
+            ],
+            "labels": [
+              "Queries"
             ]
           }
         ]
