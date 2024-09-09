@@ -845,7 +845,7 @@
           {
             "position": {
               "x": 70,
-              "y": 50
+              "y": 30
             },
             "size": {
               "width": 112.5,
@@ -878,8 +878,8 @@
           },
           {
             "position": {
-              "x": 300,
-              "y": 70
+              "x": 320,
+              "y": 40
             },
             "size": {
               "width": 112.5,
@@ -1031,8 +1031,8 @@
           },
           {
             "position": {
-              "x": 569,
-              "y": 240
+              "x": 590,
+              "y": 250
             },
             "size": {
               "width": 120,
@@ -1069,59 +1069,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Usuario / Web server limite",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "c108b62a-70da-4db8-b4e0-3aceccefe6f3",
-            "source": {
-              "x": 680,
-              "y": 440
-            },
-            "target": {
-              "x": 780,
-              "y": 540
-            },
-            "vertices": [],
-            "labels": [
-              "Usuario / Web server limite"
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Limite web server / Base de datos",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "1cb81b00-4ed2-499b-a9a2-a1acc9ab1226",
-            "source": {
-              "x": 810,
-              "y": 80
-            },
-            "target": {
-              "x": 790,
-              "y": 320
-            },
-            "labels": [
-              "Limite web server / Base de datos"
-            ]
           },
           {
             "shape": "flow",
@@ -1493,6 +1440,64 @@
             ],
             "labels": [
               "Queries"
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Limite web server / \nase de datos",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "1cb81b00-4ed2-499b-a9a2-a1acc9ab1226",
+            "source": {
+              "x": 560,
+              "y": 140
+            },
+            "target": {
+              "x": 450,
+              "y": 400
+            },
+            "labels": [
+              "Limite web server / \nase de datos"
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario / Web server limite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "c108b62a-70da-4db8-b4e0-3aceccefe6f3",
+            "source": {
+              "x": 10,
+              "y": 80
+            },
+            "target": {
+              "x": 520,
+              "y": 110
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 110
+              }
+            ],
+            "labels": [
+              "Usuario / Web server limite"
             ]
           }
         ]
