@@ -21,7 +21,7 @@
     "diagrams": [
       {
         "id": 2,
-        "title": "Web app",
+        "title": "Inicio de Sesión del Usuario",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
