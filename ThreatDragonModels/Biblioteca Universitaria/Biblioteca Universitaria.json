@@ -1,0 +1,36 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Biblioteca Universitaria",
+    "owner": "Universidad Veracruzana",
+    "description": "El sitio web de la biblioteca universitaria es la primera implementación de un sitio web para brindar servicios en línea a los bibliotecarios y usuarios de la biblioteca (estudiantes y personal universitario).",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Montiel Salas Jesús Jacob"
+      },
+      {
+        "name": "Lorena Rojas"
+      },
+      {
+        "name": "Guillermo Vera"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 2,
+        "title": "Web app",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "Oscar Morales",
+    "threatTop": 0
+  }
+}
